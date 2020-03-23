@@ -1,0 +1,115 @@
+﻿# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Build results
+[Dd]ebug/
+debug
+Debug
+[Dd]ebugPublic/
+release
+Release
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in
+bin
+Bin
+[Oo]bj/
+Obj
+obj
+obj/
+**/obj/
+**/obj/*
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Idea
+.idea/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Files built by Visual Studio
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ReSharper Files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# Artifacts
+restore.dg
+*.dll
+*.cache
+*.exe
+*.FileListAbsolute.txt
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+*.nuget.props
+*.nuget.targets
+
+# Node.js Tools for Visual Studio
+.ntvs_analysis.dat
+node_modules/
+
+#Sql Projects
+*.jfm
+*.dbmdl
+*.ldf
+*.mdb
+obj
+
+cqrs.settings.development.json
+cqrs.settings.development.json
+/Source/Hosts/Markets.Deals.BFF.CommandHost/Configuration/commandhost.settings.local.json
+/Source/Hosts/Markets.Deals.BFF.QueryHost/Configuration/queryhost.settings.local.json
